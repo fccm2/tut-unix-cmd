@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>unix-cmd</title>
+<meta name="auhtor" content="Florent Monnier, 2025-11-06" />
+<meta name="license" content="fdl" />
+<style>pre { border:1px solid #000; margin-right:38%; padding-left:1px; }
+code { border:1px solid #000; }</style>
+</head>
+<body>
+<h1>unix-command-tutorial</h1>
+<p>When you first open the terminal,
+the first command you may type could be:</p>
+<pre>ls</pre>
+<p>It will display the contents of the
+current directory.</p>
+<pre>&nbsp;</pre>
+<p>If there is nothing in it, it will not
+display anything.</p>
+<p>A current alias for this command, is:</p>
+<pre>ll</pre>
+<p>This is an alias for:</p>
+<pre>ls -l</pre>
+<p>The <code>-l</code> option, asks the
+request to the <code>ls</code> command
+to display more informations.</p>
+<p>If there is nothing in the current
+directory, it will probably display:</p>
+<pre>.  ..</pre>
+<p>with the <code>ls -a</code> option.</p>
+<p>It is also possible to combine several
+options: <code>ls -al</code>.</p>
+<p>You can probably create a new directory
+with the <code>mkdir</code> command:</p>
+<pre>mkdir dir_name</pre>
+<p>You can later remove this directory
+with <code>rmdir</code>:</p>
+<pre>rmdir dir_name/</pre>
+<p>This operation will be operated, only
+if the directory is empty,</p>
+<p>otherwise it will display:</p>
+<pre>directory not empty</pre>
+<p>When <code>ls</code> is invoked with
+<code> -a</code>, the two characters <code>.</code>
+and <code>..</code> are there to stand for:</p>
+<ul>
+<li><code>.</code>: the current directory.</li>
+<li><code>..</code>: the parent directory.</li>
+</ul>
+<p>If you try to type:</p>
+<pre>cd .</pre>
+<p>You will just stay at the current place.</p>
+<pre>cd dir_name/</pre>
+<p>is a cmd which means: <code>change-directory</code>.</p>
+<pre>cd</pre>
+<p>If you type it with-no <code>arguments</code>
+it will <code>change</code> you to the <code>default</code>
+<code>start</code> - <code>dir</code>.</p>
+<p>You can create a new file in the 
+current dir w/ vim:</p>
+<pre>$ vim file.txt</pre>
+<pre>:wq</pre>
+<p>type the <code>:wq</code> to exit.</p>
+<p>It will leave w/ an <code>empty</code>
+file.</p>
+<p>Learn more vim w/: <a href="/dev/vim.html">vim-tut</a>.</p>
+<p><a href="./versions.html">versions</a> of this file.</p>
+</body>
+</html>
